@@ -1,0 +1,83 @@
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../images/header_bckgrd.png) no-repeat center center fixed; }
+
+#headerNav {
+  margin-top: .75rem; }
+
+#headerNav ul li {
+  text-decoration: none;
+  display: inline; }
+
+@media screen and (min-width: 1200px) {
+  #logo {
+    width: 40%; }
+
+  #introText p {
+    font-size: 4rem;
+    font-family: "Arial";
+    color: white;
+    text-align: center; }
+
+  #exploreBut {
+    background-color: #282828;
+    color: white;
+    width: 80%;
+    height: 50%; }
+
+  #headerNav ul li a {
+    font-family: "Arial";
+    font-size: 1.25rem;
+    margin-left: 3rem;
+    color: white; } }
+.titleText {
+  font-family: "Chakra Petch";
+  text-align: center; }
+
+@media screen and (min-width: 1200px) {
+  .titleText {
+    font-family: "Chakra Petch";
+    font-size: 80px;
+    text-align: center; }
+
+  #abtTitle {
+    font-weight: light; }
+
+  #myWork {
+    color: black; }
+
+  #contactInfo h3 {
+    color: #e49940;
+    font-size: 3.5em;
+    font-family: "Chakra Petch"; }
+
+  #contactInfo #p1 {
+    color: black;
+    font-size: 1.5em;
+    font-family: "Chakra Petch"; }
+
+  #contactInfo #p2 {
+    color: black;
+    font-size: 1.75em;
+    font-family: "Chakra Petch"; } }
+@media screen and (min-width: 1200px) {
+  #mainFooter #footerNav ul li {
+    display: inline;
+    margin-left: 6.25rem; }
+
+  #mainFooter #footerNav ul li a {
+    color: white; }
+
+  #copyRight {
+    color: white;
+    font-size: 2rem;
+    margin-left: 3.75rem; }
+
+  #mainFooter {
+    background-color: #212d39; } }
+.boxHelper {
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

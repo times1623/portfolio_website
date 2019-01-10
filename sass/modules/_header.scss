@@ -1,0 +1,27 @@
+header  {
+
+    min-height: 100vh;
+    background-image: linear-gradient(#4a3d66, #ba4967);
+    
+    h1, p {
+        color: white;
+    }
+
+    #resBut {
+        border-radius: 5%;
+        background-color: white;
+        color: black;
+    }
+
+    #resBut:hover {
+        background-color: black;
+        color: white;
+        transition: .5s;
+    }
+    
+    hr {
+        background-color: black;
+    }
+
+
+}
