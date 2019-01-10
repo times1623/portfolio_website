@@ -1,0 +1,22 @@
+nav {
+  text-transform: uppercase;
+
+  #headName{
+    font-size: 1.25rem;
+    font-family: "Arial";
+    color: white;
+    font-weight: bold;
+  }
+
+  #navbarResponsive ul li a {
+    color: white;
+  }
+
+
+  #navbarResponsive ul li a:hover {
+    color: black;
+    transition: .2s linear;
+  }
+
+
+}

@@ -1,0 +1,45 @@
+ #portSec{
+    min-height: 100vh;
+    background: $work-d;
+    padding-bottom: 3rem;
+} 
+#myWork {
+    color: white;
+}
+
+.popText {
+    width: auto;
+    height: auto;
+    border-radius: 5px solid white;
+    
+
+}
+
+#imgInfo {
+    color: white;
+    text-align: center;
+    font-family: "Chakra Petch";
+    font-size: 1.5rem;
+
+}
+
+#imgTitle {
+    color: white;
+    font-family: "Chakra Petch";
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+@media screen and(max-width: 600px){
+    #imgInfo {
+        font-size: 0.75rem;
+    
+    }
+    
+    #imgTitle {
+
+        font-size: 1rem;
+    
+    }
+}
